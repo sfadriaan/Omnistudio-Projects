@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniDataTransform xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <assignmentRulesUsed>false</assignmentRulesUsed>
+    <deletedOnSuccess>false</deletedOnSuccess>
+    <errorIgnored>false</errorIgnored>
+    <fieldLevelSecurityEnabled>false</fieldLevelSecurityEnabled>
+    <inputType>JSON</inputType>
+    <name>DRGetRelatedOpportunityRecords</name>
+    <nullInputsIncludedInOutput>false</nullInputsIncludedInOutput>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>DRGetRelatedOpportunityRecordsCustom5311</globalKey>
+        <inputFieldName>CloseDate</inputFieldName>
+        <inputObjectName>Opportunity</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>DRGetRelatedOpportunityRecords</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Opportunity</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>DRGetRelatedOpportunityRecordsCustom3169</globalKey>
+        <inputFieldName>StageName</inputFieldName>
+        <inputObjectName>Opportunity</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>DRGetRelatedOpportunityRecords</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Opportunity</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterDataType>REFERENCE</filterDataType>
+        <filterGroup>0.0</filterGroup>
+        <filterOperator>=</filterOperator>
+        <filterValue>recordId</filterValue>
+        <globalKey>DRGetRelatedOpportunityRecordsCustom4877</globalKey>
+        <inputFieldName>AccountId</inputFieldName>
+        <inputObjectName>Opportunity</inputObjectName>
+        <inputObjectQuerySequence>1.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>DRGetRelatedOpportunityRecords</name>
+        <outputCreationSequence>0.0</outputCreationSequence>
+        <outputFieldName>Opportunity</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <omniDataTransformItem>
+        <disabled>false</disabled>
+        <filterGroup>0.0</filterGroup>
+        <globalKey>DRGetRelatedOpportunityRecordsCustom8677</globalKey>
+        <inputFieldName>Name</inputFieldName>
+        <inputObjectName>Opportunity</inputObjectName>
+        <inputObjectQuerySequence>0.0</inputObjectQuerySequence>
+        <linkedObjectSequence>0.0</linkedObjectSequence>
+        <name>DRGetRelatedOpportunityRecords</name>
+        <outputCreationSequence>1.0</outputCreationSequence>
+        <outputFieldName>Opportunity</outputFieldName>
+        <outputObjectName>Turbo Extract</outputObjectName>
+        <requiredForUpsert>false</requiredForUpsert>
+        <upsertKey>false</upsertKey>
+    </omniDataTransformItem>
+    <outputType>JSON</outputType>
+    <previewJsonData>{
+  &quot;recordId&quot; : &quot;001WU00000JoIwoYAF&quot;
+}</previewJsonData>
+    <processSuperBulk>false</processSuperBulk>
+    <responseCacheTtlMinutes>0.0</responseCacheTtlMinutes>
+    <rollbackOnError>false</rollbackOnError>
+    <sourceObject>json</sourceObject>
+    <sourceObjectDefault>false</sourceObjectDefault>
+    <synchronousProcessThreshold>0.0</synchronousProcessThreshold>
+    <type>Turbo Extract</type>
+    <uniqueName>DRGetRelatedOpportunityRecords_1</uniqueName>
+    <versionNumber>1.0</versionNumber>
+    <xmlDeclarationRemoved>false</xmlDeclarationRemoved>
+</OmniDataTransform>

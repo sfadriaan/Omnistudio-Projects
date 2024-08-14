@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "omnistudio-projects",
+  "name": "omni-projects",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0"
