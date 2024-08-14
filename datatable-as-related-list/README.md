@@ -10,6 +10,8 @@ I created a flexcard that basically showcases what each datatable event does:
 
 ![](https://github.com/sfadriaan/Omnistudio-Projects/blob/main/datatable-as-related-list/images/datatable-event-examples.gif)
 
+You can find the metadata for the above Flexcard under `force-app/main/default/omniUiCard/DatatableEventExamples`.
+
 A summary of each event that I tested:
 
 * `rowclick` captures the row column values with `{action.result.FIELD_NAME}`. You can click anywhere on the row and it will return that row's information. In the GIF you can see how the `recordId` gets updated for "Clicked On RecordId"
@@ -18,7 +20,8 @@ A summary of each event that I tested:
 
 An interesting thing I picked up is that the `{records}` list does not get updated when you update a cell value in the datatable. 
 
-Also, I added in the event listener for `rowclick` to write the row values to `Session.FIELD_NAME`, but when I update a value and press the checkmark for row level edit (or click out of the cell I just updated for cell level edit), the updated value does not get written to its designated place.
+~~Also, I added in the event listener for `rowclick` to write the row values to `Session.FIELD_NAME`, but when I update a value and press the checkmark for row level edit (or click out of the cell I just updated for cell level edit), the updated value does not get written to its designated place.~~
+UPDATE: I am now able to write the value of `{action.result.FIELD_NAME}` to a JSON property e.g. `Session.Id`.
 
 This lets me assume that you actually cannot commit any changes made in the datatable to the database with the datatable alone.
 
