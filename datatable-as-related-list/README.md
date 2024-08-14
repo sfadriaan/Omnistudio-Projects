@@ -21,7 +21,8 @@ A summary of each event that I tested:
 An interesting thing I picked up is that the `{records}` list does not get updated when you update a cell value in the datatable. 
 
 ~~Also, I added in the event listener for `rowclick` to write the row values to `Session.FIELD_NAME`, but when I update a value and press the checkmark for row level edit (or click out of the cell I just updated for cell level edit), the updated value does not get written to its designated place.~~
-UPDATE: I am now able to write the value of `{action.result.FIELD_NAME}` to a JSON property e.g. `Session.Id`.
+
+**UPDATE:** I am now able to write the value of `{action.result.FIELD_NAME}` to a JSON property e.g. `Session.FIELD_NAME`.
 
 This lets me assume that you actually cannot commit any changes made in the datatable to the database with the datatable alone.
 
