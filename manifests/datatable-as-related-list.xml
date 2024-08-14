@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>DRGetOpportunityRecord_1</members>
+        <members>DRGetRelatedOpportunityRecords_1</members>
+        <members>DRUpdateOpportunityRecord_1</members>
+        <name>OmniDataTransform</name>
+    </types>
+    <types>
+        <members>Opportunity_IPGetOpportunityRecord_Procedure_1</members>
+        <members>Opportunity_IPGetRelatedOpportunityRecords_Procedure_1</members>
+        <members>Opportunity_IPUpdateOpportunityRecord_Procedure_1</members>
+        <name>OmniIntegrationProcedure</name>
+    </types>
+    <types>
+        <members>Opportunity_UpdateOpportunityRecord_English_1</members>
+        <name>OmniScript</name>
+    </types>
+    <types>
+        <members>DisplayUpdateRelatedOpportunityRecords_SFAdriaan_1</members>
+        <name>OmniUiCard</name>
+    </types>
+    <types>
+        <members>Account_Record_Page_with_Flexcards</members>
+        <name>FlexiPage</name>
+    </types>
+    <version>61.0</version>
+</Package>
